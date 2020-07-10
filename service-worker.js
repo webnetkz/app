@@ -4,8 +4,9 @@ self.addEventListener('install', function(e) {
      return cache.addAll([
        '/',
        '/index.html',
-       '/manifest.json',
-       'logo.png'
+       '/public/json/manifest.json',
+       '/public/img/logo.png',
+       '/public/css/style.css'
      ]);
    })
  );
